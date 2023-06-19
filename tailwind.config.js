@@ -5,7 +5,11 @@ module.exports = {
   ],
   theme: {
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'weather-texture': "url('/src/assets/clear-sky-weather.svg')"
+      }
+    },
   },
   plugins: [],
 }
